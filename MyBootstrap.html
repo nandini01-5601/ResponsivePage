@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Document</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.back {
+			height: 40px;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			
+		}
+		.down {
+			height: 40px;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+		}
+		@media screen and (max-width: 600px){
+			.col1 {
+				margin: 10px;
+				margin-left: 0px;
+			}
+			.frame {
+				padding: 10px;
+				margin-top: -15px;
+			}
+			.frame1 {
+				height: 10px;
+				font-size: 15px;
+				line-height: 0px;
+			}
+		}
+		@media screen and (min-width: 600px) and (max-width: 991px){
+			.col1 {
+				margin: 10px;
+				margin-left: 0px;
+			}
+			.frame {
+				padding: 10px;
+				margin-top: -15px;
+			}
+			.frame1 {
+				height: 10px;
+				font-size: 15px;
+				line-height: 0px;
+			}
+		}
+		@media screen and (min-width: 992px) and (max-width: 1304px){
+			.col2 {
+				font-size: 10px;
+			}
+		}
+		@media screen and (min-width: 992px) and (max-width: 1109px){
+			.col3 {
+				font-size: 6px;
+			}
+		}
+		@media screen and (min-width: 1110px) and (max-width: 1304px){
+			.col3 {
+				font-size: 10px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="container-fluid navbar navbar-light bg-info back "></nav><br><br>
+	<nav class="container-fluid navbar navbar-light bg-info down"></nav>
+	<div class="row">
+		<div class="col-xl-2 col-lg-2 col-md-12 col-12 col-sm-12 border-right text-center">
+			<div class="container" style="padding-top: 40px;">
+				<div class="card">
+					<div class="card-header text-center text-dark col2" style="background-color: rgba(0,0,0,0.1);"><b>Marking Scheme</b></div>
+					<div class="card-body" style="height: 80px">
+						<div class="container border" style="padding-top: 5px;">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 col-6 text-center border-right col2"><h4><b>1</b></h4></div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 col-6 text-center col2"><h4><b>1</b></h4></div>
+							</div>
+						</div>
+					</div>
+				</div><br>
+				<div class="card">
+					<div class="card-header text-center text-dark" style="background-color: rgba(0,0,0,0.1);"><b>Hints</b></div>
+					<div class="card-body" style="height: 80px">
+						<div class="container" style="padding-top: 5px;">
+							<a href="#" class="btn btn-sm text-white btn-primary col2">HINTS</a>
+						</div>
+					</div>
+				</div>
+			</div><br><br>
+		</div>
+		<div class="col-xl-8 col-lg-8 col-12 col-md-12 col-sm-12 border-right text-center">
+			<div class="container" style="padding-top: 40px;">
+				<div class="card">
+					<div class="card-body text-left" style="height: 290px;">First Question</div>
+				</div><br>
+				<div class="card">
+					<div class="card-body" style="height: 80px;">
+						<div class="container-fluid frame">
+							<div class="row">
+							<div class="col-xl-6 col-lg-6 col-12 border text-left text-secondary mt-auto col1 frame1" style="padding: 10px; ">Name</div>
+							<div class="col-xl-1 col-lg-1 col-md-1"></div>
+							<div class="col-xl-5 col-lg-5 col-12 border text-left text-secondary mt-auto col1 frame1" style="padding: 10px; ">Password</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<div class="container">
+				<a href="#" class="btn btn-success" style="width: 100%;">SUBMIT</a>
+			</div>
+		</div>
+		<div class="col-xl-2 col-lg-2 col-12 col-md-12 col-sm-12 border-right text-center">
+			<div class="container" style="padding-top: 40px;">
+				<div class="card">
+					<div class="card-header text-center text-dark col2" style="background-color: rgba(0,0,0,0.1);"><b>Time</b></div>
+					<div class="card-body" style="height: 80px">
+						<div class="container border" style="padding-top: 5px;">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 col-6 text-center border-right"><h4><b class="col3">30</b></h4></div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xl-6 col-6 text-center col2"><h4><b class="col3">00</b></h4></div>
+							</div>
+						</div>
+					</div>
+				</div><br>
+				<div class="card">
+					<div class="card-header text-center text-dark col2" style="background-color: rgba(0,0,0,0.1);"><b>Questions</b></div>
+					<div class="card-body" style="height: 80px">
+						<div class="container" style="padding-top: 5px;">
+							<div class="text-center"><h4><b class="col2">5</b></h4></div>
+						</div>
+					</div>
+				</div><br>
+				<div class="card">
+					<div class="card-header text-center text-dark col2" style="background-color: rgba(0,0,0,0.1);"><b>Score</b></div>
+					<div class="card-body" style="height: 80px">
+						<div class="container" style="padding-top: 5px;">
+							<div class="text-center"><h4><b class="col2">+20</b></h4></div>
+						</div>
+					</div>
+				</div>
+			</div><br><br>
+		</div>
+
+	</div>
+</body>
+</html>
